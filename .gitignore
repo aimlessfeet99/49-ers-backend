@@ -1,0 +1,58 @@
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Laravel or Symfony specific files (if using these frameworks)
+# Laravel storage and cache files
+/storage/
+bootstrap/cache/
+
+# Symfony cache and logs
+/var/cache/
+/var/log/
+
+# Environment variable files
+.env
+.env.*       # Ignore all environment-specific files (e.g., .env.production, .env.local)
+
+# PHPstorm specific settings
+.idea/
+*.iml
+
+# IDE-specific files
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Log files
+logs/
+*.log
+
+# PHPUnit test results
+phpunit.xml
+phpunit.xml.dist
+/test-results.xml
+
+# Build files
+/build/
+dist/
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*.swo
+
+# Generated assets (if applicable)
+public/js/
+/public/css/
+
+# Node.js (if using npm or yarn for frontend in the project)
+node_modules/
+
+# Other temporary files
+*.tmp
+*.temp
+*.log
